@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6DFB1DB1C8FB83100012571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB1DA1C8FB83100012571 /* main.m */; };
+		D6DFB1DE1C8FB83100012571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB1DD1C8FB83100012571 /* AppDelegate.m */; };
+		D6DFB1E11C8FB83100012571 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB1E01C8FB83100012571 /* ViewController.m */; };
+		D6DFB1E41C8FB83100012571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DFB1E21C8FB83100012571 /* Main.storyboard */; };
+		D6DFB1E61C8FB83100012571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DFB1E51C8FB83100012571 /* Assets.xcassets */; };
+		D6DFB1E91C8FB83100012571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DFB1E71C8FB83100012571 /* LaunchScreen.storyboard */; };
+		D6DFB1F41C8FB83100012571 /* RilidemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB1F31C8FB83100012571 /* RilidemoTests.m */; };
+		D6DFB1FF1C8FB83100012571 /* RilidemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB1FE1C8FB83100012571 /* RilidemoUITests.m */; };
+		D6DFB2101C8FB86C00012571 /* QYHleper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB20D1C8FB86C00012571 /* QYHleper.m */; };
+		D6DFB2111C8FB86C00012571 /* QYDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB20F1C8FB86C00012571 /* QYDateHelper.m */; };
+		D6DFB2141C8FB96C00012571 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2131C8FB96C00012571 /* RootViewController.m */; };
+		D6DFB2171C8FBC1700012571 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2161C8FBC1700012571 /* Header.m */; };
+		D6DFB21A1C8FBED600012571 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2191C8FBED600012571 /* CollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6DFB1F01C8FB83100012571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6DFB1CE1C8FB83100012571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6DFB1D51C8FB83100012571;
+			remoteInfo = Rilidemo;
+		};
+		D6DFB1FB1C8FB83100012571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6DFB1CE1C8FB83100012571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6DFB1D51C8FB83100012571;
+			remoteInfo = Rilidemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6DFB1D61C8FB83100012571 /* Rilidemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rilidemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DFB1DA1C8FB83100012571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6DFB1DC1C8FB83100012571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6DFB1DD1C8FB83100012571 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6DFB1DF1C8FB83100012571 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6DFB1E01C8FB83100012571 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6DFB1E31C8FB83100012571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6DFB1E51C8FB83100012571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6DFB1E81C8FB83100012571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6DFB1EA1C8FB83100012571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DFB1EF1C8FB83100012571 /* RilidemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RilidemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DFB1F31C8FB83100012571 /* RilidemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RilidemoTests.m; sourceTree = "<group>"; };
+		D6DFB1F51C8FB83100012571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DFB1FA1C8FB83100012571 /* RilidemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RilidemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DFB1FE1C8FB83100012571 /* RilidemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RilidemoUITests.m; sourceTree = "<group>"; };
+		D6DFB2001C8FB83100012571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DFB20C1C8FB86C00012571 /* QYHleper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYHleper.h; sourceTree = "<group>"; };
+		D6DFB20D1C8FB86C00012571 /* QYHleper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYHleper.m; sourceTree = "<group>"; };
+		D6DFB20E1C8FB86C00012571 /* QYDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDateHelper.h; sourceTree = "<group>"; };
+		D6DFB20F1C8FB86C00012571 /* QYDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDateHelper.m; sourceTree = "<group>"; };
+		D6DFB2121C8FB96C00012571 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D6DFB2131C8FB96C00012571 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D6DFB2151C8FBC1700012571 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		D6DFB2161C8FBC1700012571 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
+		D6DFB2181C8FBED600012571 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		D6DFB2191C8FBED600012571 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6DFB1D31C8FB83100012571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DFB1EC1C8FB83100012571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DFB1F71C8FB83100012571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6DFB1CD1C8FB83100012571 = {
+			isa = PBXGroup;
+			children = (
+				D6DFB1D81C8FB83100012571 /* Rilidemo */,
+				D6DFB1F21C8FB83100012571 /* RilidemoTests */,
+				D6DFB1FD1C8FB83100012571 /* RilidemoUITests */,
+				D6DFB1D71C8FB83100012571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6DFB1D71C8FB83100012571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFB1D61C8FB83100012571 /* Rilidemo.app */,
+				D6DFB1EF1C8FB83100012571 /* RilidemoTests.xctest */,
+				D6DFB1FA1C8FB83100012571 /* RilidemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6DFB1D81C8FB83100012571 /* Rilidemo */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFB1DC1C8FB83100012571 /* AppDelegate.h */,
+				D6DFB1DD1C8FB83100012571 /* AppDelegate.m */,
+				D6DFB1DF1C8FB83100012571 /* ViewController.h */,
+				D6DFB1E01C8FB83100012571 /* ViewController.m */,
+				D6DFB2121C8FB96C00012571 /* RootViewController.h */,
+				D6DFB2131C8FB96C00012571 /* RootViewController.m */,
+				D6DFB20C1C8FB86C00012571 /* QYHleper.h */,
+				D6DFB20D1C8FB86C00012571 /* QYHleper.m */,
+				D6DFB20E1C8FB86C00012571 /* QYDateHelper.h */,
+				D6DFB20F1C8FB86C00012571 /* QYDateHelper.m */,
+				D6DFB2181C8FBED600012571 /* CollectionViewCell.h */,
+				D6DFB2191C8FBED600012571 /* CollectionViewCell.m */,
+				D6DFB2151C8FBC1700012571 /* Header.h */,
+				D6DFB2161C8FBC1700012571 /* Header.m */,
+				D6DFB1E21C8FB83100012571 /* Main.storyboard */,
+				D6DFB1E51C8FB83100012571 /* Assets.xcassets */,
+				D6DFB1E71C8FB83100012571 /* LaunchScreen.storyboard */,
+				D6DFB1EA1C8FB83100012571 /* Info.plist */,
+				D6DFB1D91C8FB83100012571 /* Supporting Files */,
+			);
+			path = Rilidemo;
+			sourceTree = "<group>";
+		};
+		D6DFB1D91C8FB83100012571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFB1DA1C8FB83100012571 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6DFB1F21C8FB83100012571 /* RilidemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFB1F31C8FB83100012571 /* RilidemoTests.m */,
+				D6DFB1F51C8FB83100012571 /* Info.plist */,
+			);
+			path = RilidemoTests;
+			sourceTree = "<group>";
+		};
+		D6DFB1FD1C8FB83100012571 /* RilidemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFB1FE1C8FB83100012571 /* RilidemoUITests.m */,
+				D6DFB2001C8FB83100012571 /* Info.plist */,
+			);
+			path = RilidemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6DFB1D51C8FB83100012571 /* Rilidemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DFB2031C8FB83100012571 /* Build configuration list for PBXNativeTarget "Rilidemo" */;
+			buildPhases = (
+				D6DFB1D21C8FB83100012571 /* Sources */,
+				D6DFB1D31C8FB83100012571 /* Frameworks */,
+				D6DFB1D41C8FB83100012571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rilidemo;
+			productName = Rilidemo;
+			productReference = D6DFB1D61C8FB83100012571 /* Rilidemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6DFB1EE1C8FB83100012571 /* RilidemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DFB2061C8FB83100012571 /* Build configuration list for PBXNativeTarget "RilidemoTests" */;
+			buildPhases = (
+				D6DFB1EB1C8FB83100012571 /* Sources */,
+				D6DFB1EC1C8FB83100012571 /* Frameworks */,
+				D6DFB1ED1C8FB83100012571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6DFB1F11C8FB83100012571 /* PBXTargetDependency */,
+			);
+			name = RilidemoTests;
+			productName = RilidemoTests;
+			productReference = D6DFB1EF1C8FB83100012571 /* RilidemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6DFB1F91C8FB83100012571 /* RilidemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DFB2091C8FB83100012571 /* Build configuration list for PBXNativeTarget "RilidemoUITests" */;
+			buildPhases = (
+				D6DFB1F61C8FB83100012571 /* Sources */,
+				D6DFB1F71C8FB83100012571 /* Frameworks */,
+				D6DFB1F81C8FB83100012571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6DFB1FC1C8FB83100012571 /* PBXTargetDependency */,
+			);
+			name = RilidemoUITests;
+			productName = RilidemoUITests;
+			productReference = D6DFB1FA1C8FB83100012571 /* RilidemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6DFB1CE1C8FB83100012571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = guoqingyang;
+				TargetAttributes = {
+					D6DFB1D51C8FB83100012571 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D6DFB1EE1C8FB83100012571 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D6DFB1D51C8FB83100012571;
+					};
+					D6DFB1F91C8FB83100012571 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D6DFB1D51C8FB83100012571;
+					};
+				};
+			};
+			buildConfigurationList = D6DFB1D11C8FB83100012571 /* Build configuration list for PBXProject "Rilidemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6DFB1CD1C8FB83100012571;
+			productRefGroup = D6DFB1D71C8FB83100012571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6DFB1D51C8FB83100012571 /* Rilidemo */,
+				D6DFB1EE1C8FB83100012571 /* RilidemoTests */,
+				D6DFB1F91C8FB83100012571 /* RilidemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6DFB1D41C8FB83100012571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DFB1E91C8FB83100012571 /* LaunchScreen.storyboard in Resources */,
+				D6DFB1E61C8FB83100012571 /* Assets.xcassets in Resources */,
+				D6DFB1E41C8FB83100012571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DFB1ED1C8FB83100012571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DFB1F81C8FB83100012571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6DFB1D21C8FB83100012571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DFB1E11C8FB83100012571 /* ViewController.m in Sources */,
+				D6DFB2111C8FB86C00012571 /* QYDateHelper.m in Sources */,
+				D6DFB2171C8FBC1700012571 /* Header.m in Sources */,
+				D6DFB2141C8FB96C00012571 /* RootViewController.m in Sources */,
+				D6DFB1DE1C8FB83100012571 /* AppDelegate.m in Sources */,
+				D6DFB1DB1C8FB83100012571 /* main.m in Sources */,
+				D6DFB21A1C8FBED600012571 /* CollectionViewCell.m in Sources */,
+				D6DFB2101C8FB86C00012571 /* QYHleper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DFB1EB1C8FB83100012571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DFB1F41C8FB83100012571 /* RilidemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DFB1F61C8FB83100012571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DFB1FF1C8FB83100012571 /* RilidemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6DFB1F11C8FB83100012571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6DFB1D51C8FB83100012571 /* Rilidemo */;
+			targetProxy = D6DFB1F01C8FB83100012571 /* PBXContainerItemProxy */;
+		};
+		D6DFB1FC1C8FB83100012571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6DFB1D51C8FB83100012571 /* Rilidemo */;
+			targetProxy = D6DFB1FB1C8FB83100012571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6DFB1E21C8FB83100012571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DFB1E31C8FB83100012571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6DFB1E71C8FB83100012571 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DFB1E81C8FB83100012571 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6DFB2011C8FB83100012571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6DFB2021C8FB83100012571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6DFB2041C8FB83100012571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rilidemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuangworld.guoqingyang.Rilidemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6DFB2051C8FB83100012571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rilidemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuangworld.guoqingyang.Rilidemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6DFB2071C8FB83100012571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RilidemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuangworld.guoqingyang.RilidemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rilidemo.app/Rilidemo";
+			};
+			name = Debug;
+		};
+		D6DFB2081C8FB83100012571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RilidemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuangworld.guoqingyang.RilidemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rilidemo.app/Rilidemo";
+			};
+			name = Release;
+		};
+		D6DFB20A1C8FB83100012571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RilidemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuangworld.guoqingyang.RilidemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rilidemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D6DFB20B1C8FB83100012571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RilidemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuangworld.guoqingyang.RilidemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rilidemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6DFB1D11C8FB83100012571 /* Build configuration list for PBXProject "Rilidemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DFB2011C8FB83100012571 /* Debug */,
+				D6DFB2021C8FB83100012571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DFB2031C8FB83100012571 /* Build configuration list for PBXNativeTarget "Rilidemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DFB2041C8FB83100012571 /* Debug */,
+				D6DFB2051C8FB83100012571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6DFB2061C8FB83100012571 /* Build configuration list for PBXNativeTarget "RilidemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DFB2071C8FB83100012571 /* Debug */,
+				D6DFB2081C8FB83100012571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6DFB2091C8FB83100012571 /* Build configuration list for PBXNativeTarget "RilidemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DFB20A1C8FB83100012571 /* Debug */,
+				D6DFB20B1C8FB83100012571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6DFB1CE1C8FB83100012571 /* Project object */;
+}
