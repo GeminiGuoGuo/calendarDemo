@@ -42,7 +42,7 @@
 //    [self titleview];
 //    [self getDays];
     
-    view = [[QYCalendar alloc]initWithFrame:CGRectMake(50, 0, kWidth-100, 150)];
+    view = [[QYCalendar alloc]initWithFrame:CGRectMake(30, 0, kWidth-60, 200)];
     [self.view addSubview:view];
     view.delegate = self;
     self.navigationItem.title = [NSString stringWithFormat:@"%ld-%ld",(long)nowYear,(long)nowMonth];

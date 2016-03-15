@@ -6,9 +6,9 @@
 //  Copyright © 2016年 guoqingyang. All rights reserved.
 //
 
-#import "CollectionViewCell.h"
+#import <UIKit/UIKit.h>
 
-@interface DateCell : CollectionViewCell
+@interface DateCell : UICollectionViewCell
 
 @property(nonatomic,strong)UILabel *label;
 
