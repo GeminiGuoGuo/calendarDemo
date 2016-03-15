@@ -46,7 +46,6 @@
     [self.view addSubview:view];
     view.delegate = self;
     self.navigationItem.title = [NSString stringWithFormat:@"%ld-%ld",(long)nowYear,(long)nowMonth];
-    self.navigationController.navigationBar.translucent = NO;
     
 }
 -(void)sendMonth:(NSString *)month{
@@ -58,6 +57,7 @@
 }
 
 -(void)drawNav{
+    self.navigationController.navigationBar.translucent = NO;
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"上一月" style:UIBarButtonItemStyleDone target:self action:@selector(leftbtn)];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"下一月" style:UIBarButtonItemStyleDone target:self action:@selector(rightbtn)];
 }

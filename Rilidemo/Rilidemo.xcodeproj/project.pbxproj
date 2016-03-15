@@ -60,24 +60,24 @@
 		D6DFB1FA1C8FB83100012571 /* RilidemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RilidemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DFB1FE1C8FB83100012571 /* RilidemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RilidemoUITests.m; sourceTree = "<group>"; };
 		D6DFB2001C8FB83100012571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6DFB20C1C8FB86C00012571 /* QYHleper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYHleper.h; sourceTree = "<group>"; };
-		D6DFB20D1C8FB86C00012571 /* QYHleper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYHleper.m; sourceTree = "<group>"; };
-		D6DFB20E1C8FB86C00012571 /* QYDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDateHelper.h; sourceTree = "<group>"; };
-		D6DFB20F1C8FB86C00012571 /* QYDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDateHelper.m; sourceTree = "<group>"; };
+		D6DFB20C1C8FB86C00012571 /* QYHleper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QYHleper.h; path = ../QYHleper.h; sourceTree = "<group>"; };
+		D6DFB20D1C8FB86C00012571 /* QYHleper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QYHleper.m; path = ../QYHleper.m; sourceTree = "<group>"; };
+		D6DFB20E1C8FB86C00012571 /* QYDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QYDateHelper.h; path = ../QYDateHelper.h; sourceTree = "<group>"; };
+		D6DFB20F1C8FB86C00012571 /* QYDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QYDateHelper.m; path = ../QYDateHelper.m; sourceTree = "<group>"; };
 		D6DFB2121C8FB96C00012571 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		D6DFB2131C8FB96C00012571 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		D6DFB2151C8FBC1700012571 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		D6DFB2161C8FBC1700012571 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
 		D6DFB2181C8FBED600012571 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		D6DFB2191C8FBED600012571 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
-		D6E99A501C980DAF006957E3 /* QYCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCalendar.h; sourceTree = "<group>"; };
-		D6E99A511C980DAF006957E3 /* QYCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYCalendar.m; sourceTree = "<group>"; };
-		D6E99A531C981114006957E3 /* QYDataHandel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDataHandel.h; sourceTree = "<group>"; };
-		D6E99A541C981114006957E3 /* QYDataHandel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDataHandel.m; sourceTree = "<group>"; };
-		D6E99A561C981505006957E3 /* DateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCell.h; sourceTree = "<group>"; };
-		D6E99A571C981505006957E3 /* DateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCell.m; sourceTree = "<group>"; };
-		D6E99A591C98163C006957E3 /* HraderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HraderView.h; sourceTree = "<group>"; };
-		D6E99A5A1C98163C006957E3 /* HraderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HraderView.m; sourceTree = "<group>"; };
+		D6E99A501C980DAF006957E3 /* QYCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QYCalendar.h; path = Rilidemo/QYCalendar.h; sourceTree = SOURCE_ROOT; };
+		D6E99A511C980DAF006957E3 /* QYCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QYCalendar.m; path = Rilidemo/QYCalendar.m; sourceTree = SOURCE_ROOT; };
+		D6E99A531C981114006957E3 /* QYDataHandel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QYDataHandel.h; path = ../QYDataHandel.h; sourceTree = "<group>"; };
+		D6E99A541C981114006957E3 /* QYDataHandel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QYDataHandel.m; path = ../QYDataHandel.m; sourceTree = "<group>"; };
+		D6E99A561C981505006957E3 /* DateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateCell.h; path = ../DateCell.h; sourceTree = "<group>"; };
+		D6E99A571C981505006957E3 /* DateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateCell.m; path = ../DateCell.m; sourceTree = "<group>"; };
+		D6E99A591C98163C006957E3 /* HraderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HraderView.h; path = ../HraderView.h; sourceTree = "<group>"; };
+		D6E99A5A1C98163C006957E3 /* HraderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HraderView.m; path = ../HraderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,24 +128,13 @@
 		D6DFB1D81C8FB83100012571 /* Rilidemo */ = {
 			isa = PBXGroup;
 			children = (
+				D6E99AC01C98282F006957E3 /* QYCalendar */,
 				D6DFB1DC1C8FB83100012571 /* AppDelegate.h */,
 				D6DFB1DD1C8FB83100012571 /* AppDelegate.m */,
 				D6DFB1DF1C8FB83100012571 /* ViewController.h */,
 				D6DFB1E01C8FB83100012571 /* ViewController.m */,
 				D6DFB2121C8FB96C00012571 /* RootViewController.h */,
 				D6DFB2131C8FB96C00012571 /* RootViewController.m */,
-				D6DFB20C1C8FB86C00012571 /* QYHleper.h */,
-				D6DFB20D1C8FB86C00012571 /* QYHleper.m */,
-				D6DFB20E1C8FB86C00012571 /* QYDateHelper.h */,
-				D6DFB20F1C8FB86C00012571 /* QYDateHelper.m */,
-				D6E99A501C980DAF006957E3 /* QYCalendar.h */,
-				D6E99A511C980DAF006957E3 /* QYCalendar.m */,
-				D6E99A531C981114006957E3 /* QYDataHandel.h */,
-				D6E99A541C981114006957E3 /* QYDataHandel.m */,
-				D6E99A561C981505006957E3 /* DateCell.h */,
-				D6E99A571C981505006957E3 /* DateCell.m */,
-				D6E99A591C98163C006957E3 /* HraderView.h */,
-				D6E99A5A1C98163C006957E3 /* HraderView.m */,
 				D6DFB2181C8FBED600012571 /* CollectionViewCell.h */,
 				D6DFB2191C8FBED600012571 /* CollectionViewCell.m */,
 				D6DFB2151C8FBC1700012571 /* Header.h */,
@@ -183,6 +172,25 @@
 				D6DFB2001C8FB83100012571 /* Info.plist */,
 			);
 			path = RilidemoUITests;
+			sourceTree = "<group>";
+		};
+		D6E99AC01C98282F006957E3 /* QYCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFB20C1C8FB86C00012571 /* QYHleper.h */,
+				D6DFB20D1C8FB86C00012571 /* QYHleper.m */,
+				D6DFB20E1C8FB86C00012571 /* QYDateHelper.h */,
+				D6DFB20F1C8FB86C00012571 /* QYDateHelper.m */,
+				D6E99A501C980DAF006957E3 /* QYCalendar.h */,
+				D6E99A511C980DAF006957E3 /* QYCalendar.m */,
+				D6E99A531C981114006957E3 /* QYDataHandel.h */,
+				D6E99A541C981114006957E3 /* QYDataHandel.m */,
+				D6E99A561C981505006957E3 /* DateCell.h */,
+				D6E99A571C981505006957E3 /* DateCell.m */,
+				D6E99A591C98163C006957E3 /* HraderView.h */,
+				D6E99A5A1C98163C006957E3 /* HraderView.m */,
+			);
+			path = QYCalendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

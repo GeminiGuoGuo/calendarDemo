@@ -13,7 +13,7 @@
 -(instancetype)initWithFrame:(CGRect)frame{
     if (self=[super initWithFrame:frame]) {
         self.contentView.backgroundColor = [UIColor whiteColor];
-        self.label = [[UILabel alloc]initWithFrame:CGRectMake(5, 5, [QYDataHandel shareData].width/7.0-10, [QYDataHandel shareData].height/6.0-10)];
+        self.label = [[UILabel alloc]initWithFrame:CGRectMake(5, 5, [QYDataHandel shareData].width/7.0-10, [QYDataHandel shareData].height/7.0-10)];
         self.label.textAlignment = NSTextAlignmentCenter;
         self.label.textColor = [UIColor lightGrayColor];
         self.label.font = [UIFont systemFontOfSize:12];

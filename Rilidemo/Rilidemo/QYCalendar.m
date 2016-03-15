@@ -42,11 +42,11 @@
 //collectionView
 -(void)drawCollectionView{
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];
-    flowLayout.itemSize = CGSizeMake(kWidth/7.0, kHeight/6.0);
+    flowLayout.itemSize = CGSizeMake(kWidth/7.0, kHeight/7.0);
     flowLayout.sectionInset = UIEdgeInsetsMake(0,0,0,0);
     flowLayout.minimumLineSpacing = 0;
     flowLayout.minimumInteritemSpacing  = 0;
-    flowLayout.headerReferenceSize = CGSizeMake(kHeight/6.0, kHeight/6.0);
+    flowLayout.headerReferenceSize = CGSizeMake(kHeight/7.0, kHeight/7.0);
     collectionview = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, kWidth, kHeight) collectionViewLayout:flowLayout];
     collectionview.backgroundColor = [UIColor whiteColor];
     [collectionview registerClass:[DateCell class] forCellWithReuseIdentifier:@"cell"];
