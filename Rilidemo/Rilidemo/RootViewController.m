@@ -12,16 +12,21 @@
 #import "QYHleper.h"
 #import "QYDateHelper.h"
 
+
+#import "QYCalendar.h"
+
 #define kWidth  [[UIScreen mainScreen] bounds].size.width
 #define kHeight  [[UIScreen mainScreen] bounds].size.height
 
-@interface RootViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
+@interface RootViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,QYCalendarDelegate>
 {
     UICollectionView *collectionview;
     NSInteger index;
     NSInteger nowYear;
     NSInteger nowMonth;
     NSInteger nowDay;
+    
+    QYCalendar *view;
 }
 @property(nonatomic,strong)NSMutableArray *dateArray;
 @end
@@ -32,10 +37,24 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self drawNav];
-    [self collectionview];
+//    [self collectionview];
     [self getNowDate];
-    [self titleview];
-    [self getDays];
+//    [self titleview];
+//    [self getDays];
+    
+    view = [[QYCalendar alloc]initWithFrame:CGRectMake(50, 0, kWidth-100, 150)];
+    [self.view addSubview:view];
+    view.delegate = self;
+    self.navigationItem.title = [NSString stringWithFormat:@"%ld-%ld",(long)nowYear,(long)nowMonth];
+    self.navigationController.navigationBar.translucent = NO;
+    
+}
+-(void)sendMonth:(NSString *)month{
+    self.navigationItem.title = month;
+}
+
+-(void)sendDate:(NSString *)date{
+    NSLog(@"%@",date);
 }
 
 -(void)drawNav{
@@ -44,23 +63,25 @@
 }
 //左按钮
 -(void)leftbtn{
-    nowMonth--;
-    if (nowMonth<1) {
-        nowMonth=12;
-        nowYear--;
-    }
-    [self getDays];
-    [self titleview];
+//    nowMonth--;
+//    if (nowMonth<1) {
+//        nowMonth=12;
+//        nowYear--;
+//    }
+//    [self getDays];
+//    [self titleview];
+    [view lastMonth];
 }
 //右按钮
 -(void)rightbtn{
-    nowMonth++;
-    if (nowMonth==13) {
-        nowMonth = 1;
-        nowYear++;
-    }
-    [self getDays];
-    [self titleview];
+//    nowMonth++;
+//    if (nowMonth==13) {
+//        nowMonth = 1;
+//        nowYear++;
+//    }
+//    [self getDays];
+//    [self titleview];
+    [view nextMonth];
 }
 -(void)titleview{
 //    NSDateFormatter *datefor = [[NSDateFormatter alloc]init];

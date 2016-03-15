@@ -20,6 +20,10 @@
 		D6DFB2141C8FB96C00012571 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2131C8FB96C00012571 /* RootViewController.m */; };
 		D6DFB2171C8FBC1700012571 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2161C8FBC1700012571 /* Header.m */; };
 		D6DFB21A1C8FBED600012571 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2191C8FBED600012571 /* CollectionViewCell.m */; };
+		D6E99A521C980DAF006957E3 /* QYCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E99A511C980DAF006957E3 /* QYCalendar.m */; };
+		D6E99A551C981114006957E3 /* QYDataHandel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E99A541C981114006957E3 /* QYDataHandel.m */; };
+		D6E99A581C981505006957E3 /* DateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E99A571C981505006957E3 /* DateCell.m */; };
+		D6E99A5B1C98163C006957E3 /* HraderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E99A5A1C98163C006957E3 /* HraderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +70,14 @@
 		D6DFB2161C8FBC1700012571 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
 		D6DFB2181C8FBED600012571 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		D6DFB2191C8FBED600012571 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		D6E99A501C980DAF006957E3 /* QYCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCalendar.h; sourceTree = "<group>"; };
+		D6E99A511C980DAF006957E3 /* QYCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYCalendar.m; sourceTree = "<group>"; };
+		D6E99A531C981114006957E3 /* QYDataHandel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDataHandel.h; sourceTree = "<group>"; };
+		D6E99A541C981114006957E3 /* QYDataHandel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDataHandel.m; sourceTree = "<group>"; };
+		D6E99A561C981505006957E3 /* DateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCell.h; sourceTree = "<group>"; };
+		D6E99A571C981505006957E3 /* DateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCell.m; sourceTree = "<group>"; };
+		D6E99A591C98163C006957E3 /* HraderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HraderView.h; sourceTree = "<group>"; };
+		D6E99A5A1C98163C006957E3 /* HraderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HraderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +138,14 @@
 				D6DFB20D1C8FB86C00012571 /* QYHleper.m */,
 				D6DFB20E1C8FB86C00012571 /* QYDateHelper.h */,
 				D6DFB20F1C8FB86C00012571 /* QYDateHelper.m */,
+				D6E99A501C980DAF006957E3 /* QYCalendar.h */,
+				D6E99A511C980DAF006957E3 /* QYCalendar.m */,
+				D6E99A531C981114006957E3 /* QYDataHandel.h */,
+				D6E99A541C981114006957E3 /* QYDataHandel.m */,
+				D6E99A561C981505006957E3 /* DateCell.h */,
+				D6E99A571C981505006957E3 /* DateCell.m */,
+				D6E99A591C98163C006957E3 /* HraderView.h */,
+				D6E99A5A1C98163C006957E3 /* HraderView.m */,
 				D6DFB2181C8FBED600012571 /* CollectionViewCell.h */,
 				D6DFB2191C8FBED600012571 /* CollectionViewCell.m */,
 				D6DFB2151C8FBC1700012571 /* Header.h */,
@@ -296,11 +316,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6DFB1E11C8FB83100012571 /* ViewController.m in Sources */,
+				D6E99A521C980DAF006957E3 /* QYCalendar.m in Sources */,
 				D6DFB2111C8FB86C00012571 /* QYDateHelper.m in Sources */,
 				D6DFB2171C8FBC1700012571 /* Header.m in Sources */,
 				D6DFB2141C8FB96C00012571 /* RootViewController.m in Sources */,
 				D6DFB1DE1C8FB83100012571 /* AppDelegate.m in Sources */,
 				D6DFB1DB1C8FB83100012571 /* main.m in Sources */,
+				D6E99A581C981505006957E3 /* DateCell.m in Sources */,
+				D6E99A5B1C98163C006957E3 /* HraderView.m in Sources */,
+				D6E99A551C981114006957E3 /* QYDataHandel.m in Sources */,
 				D6DFB21A1C8FBED600012571 /* CollectionViewCell.m in Sources */,
 				D6DFB2101C8FB86C00012571 /* QYHleper.m in Sources */,
 			);
@@ -528,6 +552,7 @@
 				D6DFB2051C8FB83100012571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6DFB2061C8FB83100012571 /* Build configuration list for PBXNativeTarget "RilidemoTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +561,7 @@
 				D6DFB2081C8FB83100012571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6DFB2091C8FB83100012571 /* Build configuration list for PBXNativeTarget "RilidemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +570,7 @@
 				D6DFB20B1C8FB83100012571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
