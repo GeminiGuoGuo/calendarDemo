@@ -18,6 +18,10 @@
 @interface RootViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 {
     UICollectionView *collectionview;
+    NSInteger index;
+    NSInteger nowYear;
+    NSInteger nowMonth;
+    NSInteger nowDay;
 }
 @property(nonatomic,strong)NSMutableArray *dateArray;
 @end
@@ -27,47 +31,86 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    [self drawNav];
     [self collectionview];
+    [self getNowDate];
     [self titleview];
     [self getDays];
 }
 
+-(void)drawNav{
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"上一月" style:UIBarButtonItemStyleDone target:self action:@selector(leftbtn)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"下一月" style:UIBarButtonItemStyleDone target:self action:@selector(rightbtn)];
+}
+//左按钮
+-(void)leftbtn{
+    nowMonth--;
+    if (nowMonth<1) {
+        nowMonth=12;
+        nowYear--;
+    }
+    [self getDays];
+    [self titleview];
+}
+//右按钮
+-(void)rightbtn{
+    nowMonth++;
+    if (nowMonth==13) {
+        nowMonth = 1;
+        nowYear++;
+    }
+    [self getDays];
+    [self titleview];
+}
 -(void)titleview{
-    NSDateFormatter *datefor = [[NSDateFormatter alloc]init];
-    [datefor setDateFormat:@"yyyy-MM-dd"];
-    NSDate *date = [NSDate date];
-    NSString *time =[datefor stringFromDate:date];
-    self.navigationItem.title = [time substringWithRange:NSMakeRange(0, 7)];
+//    NSDateFormatter *datefor = [[NSDateFormatter alloc]init];
+//    [datefor setDateFormat:@"yyyy-MM-dd"];
+//    NSDate *date = [NSDate date];
+//    NSString *time =[datefor stringFromDate:date];
+//    self.navigationItem.title = [time substringWithRange:NSMakeRange(0, 7)];
+    self.navigationItem.title = [NSString stringWithFormat:@"%ld-%ld",(long)nowYear,(long)nowMonth];
+}
+-(void)getNowDate{
+    nowYear = [QYDateHelper getCurrentYear];
+    nowMonth =[QYDateHelper getCurrentMonth];
+    nowDay = [QYDateHelper getCurrentDay];
 }
 -(void)getDays{
-    NSInteger days = [QYHleper DaysfromYear:[QYDateHelper getCurrentYear] andMonth:[QYDateHelper getCurrentMonth]];
-    NSString *today = [QYHleper getWeekDay:(int)[QYDateHelper getCurrentYear] :(int)[QYDateHelper getCurrentMonth] :1];
+    self.dateArray = [NSMutableArray new];
+    NSInteger days = [QYHleper DaysfromYear:nowYear andMonth:nowMonth];
+    NSString *today = [QYHleper getWeekDay:(int)nowYear :(int)nowMonth :1];
     if ([today isEqualToString:@"周日"]) {
-        
+        index = 0;
     }else if ([today isEqualToString:@"周一"]){
+        index = 1;
         NSString *str = @"";
         [self.dateArray addObject:str];
     }else if ([today isEqualToString:@"周二"]){
+        index = 2;
         for (int i=0; i<2; i++) {
             NSString *str = @"";
             [self.dateArray addObject:str];
         }
     }else if ([today isEqualToString:@"周三"]){
+        index = 3;
         for (int i=0; i<3; i++) {
             NSString *str = @"";
             [self.dateArray addObject:str];
         }
     }else if ([today isEqualToString:@"周四"]){
+        index = 4;
         for (int i=0; i<4; i++) {
             NSString *str = @"";
             [self.dateArray addObject:str];
         }
     }else if ([today isEqualToString:@"周五"]){
+        index = 5;
         for (int i=0; i<5; i++) {
             NSString *str = @"";
             [self.dateArray addObject:str];
         }
     }else if ([today isEqualToString:@"周六"]){
+        index = 6;
         for (int i=0; i<6; i++) {
             NSString *str = @"";
             [self.dateArray addObject:str];
@@ -114,7 +157,11 @@
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-  
+    if (indexPath.row>=index) {
+       // NSLog(@"%@",self.dateArray[indexPath.row]);
+    }else{
+        return;
+    }
 }
 
 
@@ -133,11 +180,6 @@
 }
 */
 
--(NSMutableArray*)dateArray{
-    if (_dateArray==nil) {
-        _dateArray = [NSMutableArray new];
-    }
-    return _dateArray;
-}
+
 
 @end
